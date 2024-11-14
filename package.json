@@ -1,0 +1,29 @@
+{
+  "name": "discord-bot-test",
+  "version": "1.0.0",
+  "description": "F11snipe Discord Bot Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f11snipe/node-discord-bot-test.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "f11snipe",
+    "test"
+  ],
+  "author": "F11snipe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/f11snipe/node-discord-bot-test/issues"
+  },
+  "homepage": "https://github.com/f11snipe/node-discord-bot-test#readme",
+  "dependencies": {
+    "discord.js": "^13.17.1",
+    "dotenv": "^16.4.5"
+  }
+}
