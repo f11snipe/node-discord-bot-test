@@ -4,6 +4,8 @@
   "description": "F11snipe Discord Bot Testing",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "deploy:commands": "node deploy-commands.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,7 +25,13 @@
   },
   "homepage": "https://github.com/f11snipe/node-discord-bot-test#readme",
   "dependencies": {
-    "discord.js": "^13.17.1",
+    "discord.js": "^14.16.3",
     "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.14.0",
+    "eslint": "^9.14.0",
+    "globals": "^15.12.0"
   }
 }
